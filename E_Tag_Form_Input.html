@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atribut tag Form dan Input</title>
+  </head>
+  <body>
+    <font face="verdana" size="2">
+      <form action="coba.php" method="post">
+        <p>
+          <b>Tag input dengan atribut type="text"</b><br />
+          <input type="text" name="teks_ku" size="16" maxlength="20" /><br />
+          Masukkan Nama Lengkap pada text box di atas dengan atribut nama
+          <i>teks_ku</i> dan maksimal karakrer yang dapat ditampung
+          <i>20 chr(character)</i>.
+        </p>
+        <p>
+          <b>Tag input dengan atribut type="password"</b><br />
+          <input
+            type="password"
+            name="password_ku"
+            size="16"
+            maxlength="20"
+            <br
+          />
+          Tuliskan password anda pada <i>passwordbox</i> dengan atribut nama
+          <i>password_ku</i> ukuran <i>16 chr</i> dan maksimal karakrer yang
+          dapat ditampung <i>20 chr(character)</i>.
+        </p>
+        <p>
+          <b>Tag input dengan atribut type="radio"</b><br />
+          <input type="radio" name="radio_ku" value="isi_1" />Radio 1 --> nama
+          <i>radio_ku</i> isi/value <i>isi_1</i><br />
+          <input type="radio" name="radio_ku" value="isi_2" />Radio 2 --> nama
+          <i>radio_ku</i> isi/value <i>isi_2</i><br />
+          <b
+            >Jika nama radio tidak sama maka tidak dianggap satu pilihan. Untuk
+            membuktikannya silahkan ganti salah satu nama dari radio diatas
+            untuk mengetahui perbedannya.</b
+          >
+        </p>
+        <p>
+          <b>Tag input dengan atribut type="checkbox"</b><br />
+          <input type="checkbox" name="checkbox_ku_1" value="isi_1" />Checkbox 1
+          --> nama <i>checkbox_ku_1</i> isi/value <i>isi_1</i><br />
+          <input type="checkbox" name="checkbox_ku_2" value="isi_2" />Checkbox 2
+          --> nama <i>checkbox_ku_2</i> isi/value <i>isi_2</i>
+        </p>
+
+        <p></p>
+        <p>
+          <b>Tag input dengan atribut type="submit"</b><br />
+          <input type="submit" value="Tombol Submit" /><br />
+          Tombol ini berguna untuk mem-post(mengirimkan variabel dan isi
+          variabel yang ada pada form ke file tujuan (action="file_tujuan"))
+        </p>
+        <p>
+          <b>Tag input dengan atribut type="reset"</b><br />
+          <input type="reset" value="Bersihkan" /><br />
+          Tombol ini berguna untuk membersihkan seluruh tulisan yang ada pada
+          seluruh isian form. Coba isikan semua textbox dan radio lalu tekan
+          tombol ini.
+        </p>
+        <p>
+          <b>Tag input dengan atribut type="hidden"</b><br />
+          <input type="hidden" value="data_ku" name="data" />
+          Tipe ini berguna jika si webmaster menginkan variabel yang sifatnya
+          sudah didefinisikan. Dan tidak menampilkan output apapun.
+        </p>
+        <p>
+          <b>Tag input dengan propeti type="image"</b><br />
+          <input
+            type="image"
+            src="education in nazi.jpg"
+            height="100"
+            width="130"
+          /><br />
+          Image memiliki fungsi yang sama dengan type submit
+        </p>
+      </form></font
+    >
+  </body>
+</html>
